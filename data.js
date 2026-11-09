@@ -55,7 +55,7 @@ const TRIP = {
     { id: "cookies-1224", date: "2026-12-24", title: "Decorate Christmas cookies",
       description: "Tentative cookie decorating.", dogFriendly: true, tentative: true },
     { id: "xmas-1225", date: "2026-12-25", title: "Christmas: grill at home + football",
-      description: "Grill at home. Packers vs. Bears @ 10am; Rams vs. Seahawks @ 5:15pm.",
+      description: "Grill at home, headed by Grillmaster Tats with his sous chefs/minions (everyone else) in support. Packers vs. Bears @ 10am; Rams vs. Seahawks @ 5:15pm.",
       dogFriendly: true, tentative: false },
     { id: "medina-arrive-1226", date: "2026-12-26", title: "Melissa & David arrive",
       description: "Likely arrival day for the Medinas (TBD).", dogFriendly: "unknown", tentative: true },
