@@ -20,7 +20,7 @@ const TRIP = {
     { name: "Lucas Carmichael-Tanaka", title: "Offspring #2 - The Intentional Sibling",
       arrival: { date: "2026-12-19", time: "1:30pm" },
       departure: { date: "2027-01-02", note: "via car with Tats" }, isDog: false },
-    { name: "Tats Tanaka", title: "Paternal Ancestor",
+    { name: "Tats Tanaka", title: "Grillmaster / Paternal Ancestor",
       arrival: { date: "2026-12-23", note: "via car" },
       departure: { date: "2027-01-02", note: "via car" }, isDog: false },
     { name: "Joanne Pegues", title: "Partner to Paternal Ancestor",
