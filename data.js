@@ -75,6 +75,9 @@ const TRIP = {
       dogFriendly: "unknown", reservation: "Call ahead for the group", tentative: true },
     { id: "fiesta-1230", date: "2026-12-30", title: "Fiesta Bowl",
       description: "Bowl game watch party (tentative).", dogFriendly: true, tentative: true },
+    { id: "boardgames-1230", date: "2026-12-30", title: "Board game night",
+      description: "Break out the board games — bring your competitive side (and good sportsmanship).",
+      dogFriendly: true, tentative: true },
     { id: "cfa-1231", date: "2026-12-31", title: "Chick-fil-A Bowl + New Year's Eve",
       description: "Bowl game and ring in the new year.", dogFriendly: true, tentative: true },
     { id: "rose-0101", date: "2027-01-01", title: "Rose Bowl",
@@ -96,7 +99,7 @@ const TRIP = {
     { date: "2026-12-27", itemIds: ["football-1227"] },
     { date: "2026-12-28", itemIds: ["overlook-1228", "vineyard-1228"] },
     { date: "2026-12-29", itemIds: ["vineyard-1229"] },
-    { date: "2026-12-30", itemIds: ["fiesta-1230"] },
+    { date: "2026-12-30", itemIds: ["fiesta-1230", "boardgames-1230"] },
     { date: "2026-12-31", itemIds: ["cfa-1231"] },
     { date: "2027-01-01", itemIds: ["rose-0101"] },
     { date: "2027-01-02", itemIds: ["departures-0102"] }
