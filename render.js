@@ -162,7 +162,7 @@ function renderCalendar(byId) {
   <div class="section-inner">
     <p class="label">The Plan at a Glance</p>
     <h2>Calendar</h2>
-    <p class="section-sub">Click any day to jump to its details. Lighter items are still tentative.</p>
+    <p class="section-sub">Click any day to jump to its details. Italicized items are still tentative.</p>
     <div class="cal-grid">${heads}${blanks}${cells}</div>
   </div>`;
 }
