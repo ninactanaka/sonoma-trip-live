@@ -39,7 +39,7 @@ const TRIP = {
 
   // Day-specific happenings. `date` ties them to the calendar.
   activities: [
-    { id: "arrivals-1219", date: "2026-12-19", title: "Everyone lands", time: "",
+    { id: "arrivals-1219", date: "2026-12-19", title: "First wave arrives", time: "",
       description: "Lucas (1:30pm), Dana (3:35pm), and Nina (4:52pm) arrive. Settle in.",
       dogFriendly: "unknown", tentative: false },
     { id: "settle-1220", date: "2026-12-20", title: "Groceries & vegging",
