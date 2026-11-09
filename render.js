@@ -132,9 +132,9 @@ function renderNav() {
   <div class="nav-inner">
     <a class="monogram" href="#hero">Sonoma</a>
     <div class="nav-links">
+      <a href="#guests">Guests</a>
       <a href="#calendar">Calendar</a>
       <a href="#days">Days</a>
-      <a href="#guests">Guests</a>
       <a href="#options">Options</a>
       <a href="#info">Info</a>
     </div>
@@ -209,6 +209,7 @@ function renderInfo() {
     <ul class="info-list">
       <li><strong>Where:</strong> ${esc(TRIP.meta.address)}</li>
       <li><strong>When:</strong> ${esc(fmtDate(TRIP.meta.startDate))} – ${esc(fmtDate(TRIP.meta.endDate))}, ${esc(TRIP.meta.years)}</li>
+      <li><strong>Sleeping &amp; bathrooms:</strong> 4 bedrooms, 2 bathrooms. Bathroom plan: one is the boys' bathroom, the other is the girls'.</li>
       <li><strong>Getting around:</strong> You'll want a car — most wineries, trails, and restaurants are a short drive.</li>
       <li><strong>Packing:</strong> Layers for cool, possibly rainy late-December days; hiking shoes; something nice for a group dinner.</li>
       <li><strong>Settling in:</strong> Grocery run and a time-change adjustment day on Dec 20.</li>
