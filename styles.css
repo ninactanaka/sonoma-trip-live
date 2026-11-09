@@ -1,0 +1,122 @@
+:root {
+  --bg: #F4EDE1;
+  --surface: #FBF7EF;
+  --heading: #3B4A2F;
+  --sage: #8A9A7B;
+  --sage-text: #5C6A4E;
+  --terracotta: #B5633C;
+  --wine: #6E2A3C;
+  --body: #5C5648;
+  --line: #E3D9C6;
+  --maxw: 920px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--body);
+  font-family: 'Mulish', system-ui, sans-serif; line-height: 1.6; }
+
+h1, h2, h3, h4, .monogram { font-family: 'Cormorant Garamond', Georgia, serif;
+  color: var(--heading); font-weight: 600; line-height: 1.05; margin: 0 0 .4em; }
+h1 { font-size: clamp(2.6rem, 7vw, 5rem); }
+h2 { font-size: clamp(2rem, 5vw, 3.2rem); }
+a { color: var(--terracotta); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible, .cal-item:focus-visible { outline: 2px solid var(--wine); outline-offset: 2px; border-radius: 3px; }
+
+.label { font-family: 'Mulish', sans-serif; text-transform: uppercase;
+  letter-spacing: 3px; font-size: .7rem; color: var(--sage-text); margin: 0 0 .6em; }
+.muted { color: var(--sage-text); }
+.section-inner, .hero-inner, .nav-inner, .footer-inner {
+  max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+
+/* Nav */
+#nav { position: sticky; top: 0; z-index: 10; background: rgba(244,237,225,.92);
+  backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+.nav-inner { display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding-top: 14px; padding-bottom: 14px; }
+.monogram { font-size: 1.6rem; }
+.nav-links { display: flex; gap: 22px; flex-wrap: wrap; }
+.nav-links a { color: var(--heading); text-transform: uppercase; letter-spacing: 2px; font-size: .72rem; }
+.nav-date { color: var(--wine); letter-spacing: 2px; font-size: .72rem; white-space: nowrap; }
+
+/* Sections */
+section { padding: 72px 0; border-bottom: 1px solid var(--line); }
+#hero { text-align: center; padding: 96px 0 72px; border-bottom: none; }
+.hero-dates { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--terracotta); }
+.hero-intro { max-width: 540px; margin: 12px auto 0; }
+.section-sub { max-width: 560px; }
+
+/* Calendar grid */
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin-top: 24px; }
+.cal-head { text-align: center; text-transform: uppercase; letter-spacing: 1px;
+  font-size: .62rem; color: var(--sage-text); padding-bottom: 4px; }
+.cal-cell { background: var(--surface); border: 1px solid var(--line); border-radius: 6px;
+  min-height: 92px; padding: 6px; }
+.cal-cell--blank { background: transparent; border: none; }
+.cal-date { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--heading); }
+.cal-items { display: flex; flex-direction: column; gap: 3px; margin-top: 4px; }
+.cal-item { font-size: .68rem; color: var(--body); line-height: 1.25; }
+.cal-item.is-tentative { color: var(--sage-text); font-style: italic; opacity: .85; }
+
+/* Day details */
+.day-detail { padding: 20px 0; border-top: 1px solid var(--line); scroll-margin-top: 90px; }
+.day-header { font-size: 1.8rem; }
+.day-item { margin-bottom: 14px; }
+.day-item.is-tentative { opacity: .82; }
+.day-item .meta { font-size: .85rem; margin: 2px 0; }
+.day-detail--flash { background: #B5633C14; border-radius: 10px; transition: background .4s; }
+
+/* Cards */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; margin-top: 20px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+.guest-title { font-style: italic; color: var(--wine); margin-top: -.4em; }
+.travel { margin: 10px 0 0; }
+.travel div { display: flex; gap: 8px; font-size: .9rem; }
+.travel dt { color: var(--sage-text); min-width: 64px; margin: 0; }
+.travel dd { margin: 0; }
+.guest-card--dog { border-color: var(--sage); }
+.options-group { margin-top: 36px; font-size: 1.6rem; }
+
+/* Badges */
+.badge-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.badge { display: inline-block; font-size: .68rem; padding: 3px 9px; border-radius: 20px; border: 1px solid; }
+.badge--dog { color: #5a6b4d; background: #8A9A7B22; border-color: var(--sage); }
+.badge--no-dog { color: var(--sage-text); background: transparent; border-color: var(--line); text-decoration: line-through; }
+.badge--tentative { color: var(--wine); background: #6E2A3C12; border-color: #6E2A3C55; }
+.badge--reservation { color: var(--terracotta); background: #B5633C12; border-color: #B5633C66; }
+
+/* Info + footer */
+.info-list { list-style: none; padding: 0; max-width: 620px; }
+.info-list li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+#footer { text-align: center; padding: 48px 0; }
+.footer-inner p { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--heading); }
+
+@media (max-width: 680px) {
+  .nav-links { display: none; }
+  .cal-cell { min-height: 64px; }
+  .cal-item { font-size: .6rem; }
+}
+
+.hero-art { width: 100%; max-width: 640px; height: auto; opacity: .85; margin-bottom: 8px; }
+
+/* Passcode gate */
+body.locked #nav, body.locked main, body.locked #footer { display: none; }
+#gate { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center;
+  justify-content: center; background: var(--bg); padding: 24px; }
+.gate-card { text-align: center; max-width: 360px; width: 100%; }
+.gate-label { font-family: 'Mulish', sans-serif; text-transform: uppercase;
+  letter-spacing: 3px; font-size: .7rem; color: var(--sage-text); margin: 0 0 .4em; }
+.gate-title { font-size: clamp(3rem, 12vw, 4.5rem); margin: 0 0 .2em; }
+.gate-sub { color: var(--body); margin: 0 0 20px; }
+.gate-row { display: flex; gap: 8px; justify-content: center; }
+#gate-input { flex: 1; max-width: 220px; padding: 10px 12px; font-size: 1rem;
+  font-family: 'Mulish', sans-serif; color: var(--heading); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; }
+#gate-input:focus-visible { outline: 2px solid var(--wine); outline-offset: 2px; }
+#gate-btn { padding: 10px 18px; font-size: .9rem; font-family: 'Mulish', sans-serif;
+  letter-spacing: 1px; text-transform: uppercase; color: var(--bg); background: var(--terracotta);
+  border: none; border-radius: 8px; cursor: pointer; }
+#gate-btn:hover { background: var(--wine); }
+#gate-btn:focus-visible { outline: 2px solid var(--wine); outline-offset: 2px; }
+.gate-err { color: var(--wine); min-height: 1.2em; margin: 12px 0 0; font-size: .9rem; }

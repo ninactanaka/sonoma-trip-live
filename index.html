@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Christmas &amp; New Year's in Sonoma</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="locked">
+  <div id="gate">
+    <div class="gate-card">
+      <p class="gate-label">A Family Holiday</p>
+      <h1 class="gate-title">Sonoma</h1>
+      <p class="gate-sub">Enter the passcode to see the plan.</p>
+      <div class="gate-row">
+        <input id="gate-input" type="password" autocomplete="off" aria-label="Passcode" placeholder="Passcode">
+        <button id="gate-btn" type="button">Enter</button>
+      </div>
+      <p id="gate-err" class="gate-err" role="alert"></p>
+    </div>
+  </div>
+
+  <nav id="nav"></nav>
+  <main>
+    <section id="hero"></section>
+    <section id="calendar"></section>
+    <section id="days"></section>
+    <section id="guests"></section>
+    <section id="options"></section>
+    <section id="info"></section>
+  </main>
+  <footer id="footer"></footer>
+
+  <script src="data.js"></script>
+  <script src="render.js"></script>
+  <script src="gate.js"></script>
+</body>
+</html>
