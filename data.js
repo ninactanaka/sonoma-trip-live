@@ -25,7 +25,7 @@ const TRIP = {
       departure: { date: "2027-01-02", note: "via car" }, isDog: false },
     { name: "Joanne Pegues", title: "Partner to Paternal Ancestor",
       arrival: { date: "2026-12-23", note: "picked up by Tats" },
-      departure: { date: "2027-01-02", note: "dropped off by Tats" }, isDog: false },
+      departure: { date: "2027-01-02", note: "from SFO" }, isDog: false },
     { name: "Kai Tanaka", title: "K9 Companion / Official Passenger Princess",
       arrival: { date: "2026-12-23", note: "with Tats" },
       departure: { date: "2027-01-02", note: "with Tats" }, isDog: true },
