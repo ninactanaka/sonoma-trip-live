@@ -162,7 +162,7 @@ function renderCalendar(byId) {
   <div class="section-inner">
     <p class="label">The Plan at a Glance</p>
     <h2>Calendar</h2>
-    <p class="section-sub">Click any day to jump to its details. Italicized items are still tentative.</p>
+    <p class="section-sub">Some events are set while others are tentative (italicized) pending weather and group vibes. Click any day to jump to its details. Please also note that most meals will be enjoyed at home, with the burden (honor?) of cooking being shared amongst the group. If there is a particular day you would like to take Head Chef status, please let the organizer know.</p>
     <div class="cal-grid">${heads}${blanks}${cells}</div>
   </div>`;
 }
@@ -209,10 +209,10 @@ function renderInfo() {
     <ul class="info-list">
       <li><strong>Where:</strong> ${esc(TRIP.meta.address)}</li>
       <li><strong>When:</strong> ${esc(fmtDate(TRIP.meta.startDate))} – ${esc(fmtDate(TRIP.meta.endDate))}, ${esc(TRIP.meta.years)}</li>
-      <li><strong>Sleeping &amp; bathrooms:</strong> 4 bedrooms, 2 bathrooms. Bathroom plan: one is the boys' bathroom, the other is the girls'.</li>
+      <li><strong>The house:</strong> We're lucky to be staying as guests in someone's home, so let's treat it with care and leave it as we found it. It's a ranch-style place with an open-concept shared space (kitchen, dining, and living room), 4 bedrooms, and 2 bathrooms, in a quiet residential area. There's a backyard with a grill, and it's a 5-minute drive (about a 25-minute walk) from Sonoma Plaza.</li>
+      <li><strong>Bathrooms:</strong> Two bathrooms — we'll designate one for the boys and one for the girls.</li>
       <li><strong>Getting around:</strong> You'll want a car — most wineries, trails, and restaurants are a short drive.</li>
-      <li><strong>Packing:</strong> Layers for cool, possibly rainy late-December days; hiking shoes; something nice for a group dinner.</li>
-      <li><strong>Settling in:</strong> Grocery run and a time-change adjustment day on Dec 20.</li>
+      <li><strong>Packing:</strong> Layers for cool, possibly rainy late-December days; hiking shoes; something nice for a group dinner; something festive for New Year's Eve; and an optional ugly sweater for Christmas.</li>
       <li><strong>Kai:</strong> 🐾 Look for the paw — it flags dog-friendly outings. A crossed note means leave the Passenger Princess at home.</li>
     </ul>
   </div>`;
