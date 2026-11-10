@@ -113,6 +113,7 @@ function dayDetailHtml(day, byId) {
   <div class="day-item${a.tentative ? ' is-tentative' : ''}">
     <h4>${esc(a.title)}${a.time ? ` <span class="muted">${esc(a.time)}</span>` : ''}</h4>
     <p>${esc(a.description)}</p>
+    ${a.bullets && a.bullets.length ? `<ul class="day-bullets">${a.bullets.map(b => `<li>${esc(b)}</li>`).join('')}</ul>` : ''}
     ${a.bring ? `<p class="meta"><strong>Bring:</strong> ${esc(a.bring)}</p>` : ''}
     ${a.cost ? `<p class="meta"><strong>Cost:</strong> ${esc(a.cost)}</p>` : ''}
     <div class="badge-row">${badges(a)}</div>

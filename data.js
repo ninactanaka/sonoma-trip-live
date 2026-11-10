@@ -51,7 +51,7 @@ const TRIP = {
     { id: "julie-1222", date: "2026-12-22", title: "Have lunch with Grandma Julie",
       description: "Tentative lunch with Grandma Julie.", dogFriendly: "unknown", tentative: true },
     { id: "tats-arrive-1223", date: "2026-12-23", title: "Tats, Joanne & Kai arrive",
-      description: "The paternal crew rolls in by car.", dogFriendly: true, tentative: false },
+      description: "The paternal crew rolls in by car via Santa Rosa - option to stop at Costco here!", dogFriendly: true, tentative: false },
     { id: "cooking-1224", date: "2026-12-24", title: "Cooking at home",
       description: "Dana and Lucas focus on cooking dinner, with Nina on appetizers.",
       dogFriendly: true, tentative: false },
@@ -63,7 +63,7 @@ const TRIP = {
     { id: "medina-arrive-1226", date: "2026-12-26", title: "Melissa & David arrive",
       description: "Likely arrival day for the Medinas (TBD).", dogFriendly: "unknown", tentative: true },
     { id: "leftovers-1226", date: "2026-12-26", title: "TBD",
-      description: "Still TBD — food-wise we'll likely finish the leftovers from the day before.",
+      description: "Food-wise we'll likely finish the leftovers from the day before. Day plans are open, partly depending on ETA of Medina crew.",
       dogFriendly: true, tentative: true },
     { id: "buenavista-1227", date: "2026-12-27", title: "Visit Buena Vista Winery",
       description: "Buena Vista is the second-oldest winery in California (1857). It carries a dog-friendly tag, but some experiences are dog-friendly and others aren't, so whether Kai can join depends on which tasting we pick.",
@@ -87,14 +87,18 @@ const TRIP = {
     { id: "nye-tbd-1231", date: "2026-12-31", title: "TBD",
       description: "Daytime is still open — we'll figure it out.", dogFriendly: true, tentative: true },
     { id: "festive-1231", date: "2026-12-31", title: "Something festive in the evening!",
-      description: "Two festive ways to ring in 2027. Option 1 — Santé's NYE Soirée at the Fairmont Sonoma Mission Inn (100 Boyes Blvd): a four-course dinner from 5:30-9:30pm with dancing until 1am and a midnight sparkling toast, plus an optional caviar add-on and a vegan menu. $149 per adult, $39 for kids 5-12, under 5 free (plus tax and gratuity); prepayment required and cancellations are due by Dec 25. Option 2 — Midnight at the Parlour at Songbird Parlour (14301 Arnold Dr, Glen Ellen): a 10pm-midnight after-party with craft cocktails, flowing champagne, and a midnight toast, ideal if we'd rather do dinner at home first. Book the Parlour at (707) 343-1308 or info@songbirdparlour.com.",
+      description: "Two festive ways to ring in 2027:",
+      bullets: [
+        "Santé's NYE Soirée at the Fairmont Sonoma Mission Inn (100 Boyes Blvd): a four-course dinner from 5:30-9:30pm with dancing until 1am and a midnight sparkling toast, plus an optional caviar add-on and a vegan menu. $149 per adult, $39 for kids 5-12, under 5 free (plus tax and gratuity); prepayment required and cancellations are due by Dec 25.",
+        "Midnight at the Parlour at Songbird Parlour (14301 Arnold Dr, Glen Ellen): a 10pm-midnight after-party with craft cocktails, flowing champagne, and a midnight toast, ideal if we'd rather do dinner at home first. Book at (707) 343-1308 or info@songbirdparlour.com."
+      ],
       dogFriendly: "unknown", reservation: "Reservations / prepayment required — book ahead", tentative: true },
     { id: "grill-0101", date: "2027-01-01", title: "Grill at home",
       description: "Fire up the backyard grill for a New Year's Day feast.", dogFriendly: true, tentative: false },
     { id: "bowls-0101", date: "2027-01-01", title: "Bowl games: Peach, Cotton & Rose",
       description: "A full day of college football — the Peach Bowl, Cotton Bowl, and Rose Bowl.", dogFriendly: true, tentative: false },
     { id: "departures-0102", date: "2027-01-02", title: "Departures",
-      description: "Dana departs 6:32pm; Nina departs 10:00pm; Tats, Joanne, Kai & Lucas by car.",
+      description: "Dana, Joanne, and Nina depart from SFO (departure times ranging from 6:30-10pm); Tats, Lucas, and Kai depart by car; Medinas are still TBD.",
       dogFriendly: "unknown", tentative: false }
   ],
 
