@@ -45,6 +45,8 @@ const TRIP = {
     { id: "settle-1220", date: "2026-12-20", title: "Grab groceries & veg out",
       description: "Basic grocery run, adjust to the time change, chill, veg.",
       dogFriendly: "unknown", tentative: false },
+    { id: "vikings-1220", date: "2026-12-20", title: "Watch Vikings vs. Lions @ 5:20pm",
+      description: "Football on the couch.", dogFriendly: true, tentative: false },
     { id: "sugarloaf-1221", date: "2026-12-21", title: "Hike Sugarloaf Ridge State Park",
       description: "~5.5 miles. Note: no dogs on this one.", cost: "$10 per vehicle",
       bring: "Water, layers, hiking shoes", dogFriendly: false, tentative: true },
@@ -104,7 +106,7 @@ const TRIP = {
 
   calendarDays: [
     { date: "2026-12-19", itemIds: ["arrivals-1219"] },
-    { date: "2026-12-20", itemIds: ["settle-1220"] },
+    { date: "2026-12-20", itemIds: ["settle-1220", "vikings-1220"] },
     { date: "2026-12-21", itemIds: ["sugarloaf-1221"] },
     { date: "2026-12-22", itemIds: ["julie-1222"] },
     { date: "2026-12-23", itemIds: ["tats-arrive-1223"] },
