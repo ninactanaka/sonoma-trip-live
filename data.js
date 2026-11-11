@@ -69,7 +69,7 @@ const TRIP = {
       dogFriendly: true, tentative: true },
     { id: "buenavista-1227", date: "2026-12-27", title: "Visit Buena Vista Winery", time: "3pm",
       description: "Buena Vista is the second-oldest winery in California (1857). We've booked a dog-friendly experience, so Kai can join (weather permitting).",
-      cost: "$40 per person", dogFriendly: true,
+      cost: "$50 per person", dogFriendly: true,
       reservation: "Reserved Dec 27 at 3pm for 7 people + 1 dog (weather permitting)", tentative: false },
     { id: "football-1227", date: "2026-12-27", title: "+ football",
       description: "Two games on the couch: Jaguars vs. Cowboys @ 5:15pm; Vikings vs. Commanders (time TBD).",
