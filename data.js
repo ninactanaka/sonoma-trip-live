@@ -30,11 +30,11 @@ const TRIP = {
       arrival: { date: "2026-12-23", note: "with Tats" },
       departure: { date: "2027-01-02", note: "with Tats" }, isDog: true },
     { name: "Melissa Medina", title: "Tía Ancestor",
-      arrival: { date: "2026-12-26", note: "likely — TBD" },
-      departure: { date: "", note: "TBD" }, isDog: false },
+      arrival: { date: "2026-12-25", time: "~1pm" },
+      departure: { date: "2027-01-02", note: "time TBD" }, isDog: false },
     { name: "David Medina", title: "Marido de Tía Ancestor AKA Tío",
-      arrival: { date: "2026-12-26", note: "likely — TBD" },
-      departure: { date: "", note: "TBD" }, isDog: false }
+      arrival: { date: "2026-12-25", time: "~1pm" },
+      departure: { date: "2027-01-02", note: "time TBD" }, isDog: false }
   ],
 
   // Day-specific happenings. `date` ties them to the calendar.
@@ -62,10 +62,10 @@ const TRIP = {
     { id: "xmas-1225", date: "2026-12-25", title: "Celebrate Christmas: grill at home + football",
       description: "Grill at home, headed by Grillmaster Tats with his sous chefs/minions (everyone else) in support. Packers vs. Bears @ 10am; Rams vs. Seahawks @ 5:15pm.",
       dogFriendly: true, tentative: false },
-    { id: "medina-arrive-1226", date: "2026-12-26", title: "Melissa & David arrive",
-      description: "Likely arrival day for the Medinas (TBD).", dogFriendly: "unknown", tentative: true },
+    { id: "medina-arrive-1225", date: "2026-12-25", title: "Melissa & David arrive",
+      description: "The Medinas arrive around 1pm on Christmas Day.", dogFriendly: "unknown", tentative: false },
     { id: "leftovers-1226", date: "2026-12-26", title: "TBD",
-      description: "Food-wise we'll likely finish the leftovers from the day before. Day plans are open, partly depending on ETA of Medina crew.",
+      description: "Food-wise we'll likely finish the leftovers from the day before. Day plans are open.",
       dogFriendly: true, tentative: true },
     { id: "buenavista-1227", date: "2026-12-27", title: "Visit Buena Vista Winery", time: "3pm",
       description: "Buena Vista is the second-oldest winery in California (1857). We've booked a dog-friendly experience, so Kai can join (weather permitting).",
@@ -102,7 +102,7 @@ const TRIP = {
     { id: "bowls-0101", date: "2027-01-01", title: "Bowl games: Peach, Cotton & Rose",
       description: "A full day of college football — the Peach Bowl, Cotton Bowl, and Rose Bowl.", dogFriendly: true, tentative: false },
     { id: "departures-0102", date: "2027-01-02", title: "Departures",
-      description: "Dana, Joanne, and Nina depart from SFO (departure times ranging from 6:30-10pm); Tats, Lucas, and Kai depart by car; Medinas are still TBD.",
+      description: "Dana, Joanne, and Nina depart from SFO (departure times ranging from 6:30-10pm); Tats, Lucas, and Kai depart by car; the Medinas also leave today (time TBD).",
       dogFriendly: "unknown", tentative: false }
   ],
 
@@ -113,8 +113,8 @@ const TRIP = {
     { date: "2026-12-22", itemIds: ["julie-1222"] },
     { date: "2026-12-23", itemIds: ["tats-arrive-1223"] },
     { date: "2026-12-24", itemIds: ["cooking-1224", "cookies-1224"] },
-    { date: "2026-12-25", itemIds: ["xmas-1225"] },
-    { date: "2026-12-26", itemIds: ["medina-arrive-1226", "leftovers-1226"] },
+    { date: "2026-12-25", itemIds: ["xmas-1225", "medina-arrive-1225"] },
+    { date: "2026-12-26", itemIds: ["leftovers-1226"] },
     { date: "2026-12-27", itemIds: ["buenavista-1227", "football-1227"] },
     { date: "2026-12-28", itemIds: ["plaza-1228"] },
     { date: "2026-12-29", itemIds: ["bartholomew-1229", "vineyard-1229"] },
