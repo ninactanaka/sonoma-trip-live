@@ -134,7 +134,7 @@ const TRIP = {
         dogFriendly: true, reservation: "", link: "" },
       { name: "Buena Vista Winery",
         description: "Groups up to 7 can drop in for new and older releases, $20–30. Second-oldest winery in California (1857).",
-        dogFriendly: "unknown", reservation: "Call ahead for the group", link: "" },
+        dogFriendly: true, reservation: "Reserved — planned outing Dec 27", link: "" },
       { name: "Gundlach Bundschu",
         description: "The group favorite. Indoor-outdoor standard tasting from $50/pp. Winter hours 11am–4:30pm — book an early slot.",
         dogFriendly: "unknown", reservation: "Needs reservation (book early)", link: "" },
@@ -182,7 +182,7 @@ const TRIP = {
         dogFriendly: false, link: "" },
       { name: "Point Reyes: Chimney Rock / Elephant Seal Overlook", level: "Easy", cost: "Free",
         notes: "A stretch (~1.5 hrs). Bull elephant seals and pups on the beach in December–January; gray whales migrate past at the same time.",
-        dogFriendly: "unknown", link: "" }
+        dogFriendly: false, link: "" }
     ]
   }
 };

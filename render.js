@@ -210,10 +210,11 @@ function renderInfo() {
     <ul class="info-list">
       <li><strong>Where:</strong> ${esc(TRIP.meta.address)}</li>
       <li><strong>When:</strong> ${esc(fmtDate(TRIP.meta.startDate))} – ${esc(fmtDate(TRIP.meta.endDate))}, ${esc(TRIP.meta.years)}</li>
-      <li><strong>The house:</strong> We're lucky to be staying as guests in someone's home, so let's treat it with care and leave it as we found it. It's a ranch-style place with an open-concept shared space (kitchen, dining, and living room), 4 bedrooms, and 2 bathrooms, in a quiet residential area. There's a backyard with a grill, and it's a 5-minute drive (about a 25-minute walk) from Sonoma Plaza.</li>
-      <li><strong>Bathrooms:</strong> Two bathrooms — we'll designate one for the boys and one for the girls.</li>
+      <li><strong>The house:</strong> We're lucky to be staying as guests in someone's home, so let's treat it with care and leave it as we found it. It's a ranch-style place with an open-concept shared space (kitchen, dining, and living room) and 4 bedrooms, in a quiet residential area. There's a backyard with a grill, and it's a 5-minute drive (about a 25-minute walk) from Sonoma Plaza.</li>
+      <li><strong>Bathrooms:</strong> There are two bathrooms – one will be designated for the boys and one will be designated for the girls (because, cooties, obviously).</li>
       <li><strong>Getting around:</strong> You'll want a car — most wineries, trails, and restaurants are a short drive.</li>
       <li><strong>Packing:</strong> Layers for cool, possibly rainy late-December days; hiking shoes; something nice for a group dinner; something festive for New Year's Eve; and an optional ugly sweater for Christmas.</li>
+      <li><strong>Gifts:</strong> There will be some sort of fun, organized gift exchange, we're still figuring out what exactly that will look like so stay tuned!</li>
       <li><strong>Kai:</strong> 🐾 Look for the paw — it flags dog-friendly outings. A crossed note means leave the Passenger Princess at home.</li>
     </ul>
   </div>`;
