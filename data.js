@@ -7,7 +7,7 @@ const TRIP = {
     address: "322 Nicoli Lane, Sonoma, California",
     zip: "",                       // TBD
     dateTag: "12.19.26 · SONOMA",
-    intro: "Four cozy days (okay, two weeks) of family, wine country, and good times. Here's everything you need to plan the trip."
+    intro: "Two weeks of family, wine country, and good times. Here's everything you need to plan for the trip."
   },
 
   guests: [
