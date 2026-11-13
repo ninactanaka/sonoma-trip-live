@@ -30,10 +30,10 @@ const TRIP = {
       arrival: { date: "2026-12-23", note: "with Tats" },
       departure: { date: "2027-01-02", note: "with Tats" }, isDog: true },
     { name: "Melissa Medina", title: "Tía Ancestor",
-      arrival: { date: "2026-12-25", time: "~1pm" },
+      arrival: { date: "2026-12-25", time: "12:50pm" },
       departure: { date: "2027-01-02", note: "time TBD" }, isDog: false },
     { name: "David Medina", title: "Marido de Tía Ancestor AKA Tío",
-      arrival: { date: "2026-12-25", time: "~1pm" },
+      arrival: { date: "2026-12-25", time: "12:50pm" },
       departure: { date: "2027-01-02", note: "time TBD" }, isDog: false }
   ],
 
@@ -63,7 +63,7 @@ const TRIP = {
       description: "Grill at home, headed by Grillmaster Tats with his sous chefs/minions (everyone else) in support. Packers vs. Bears @ 10am; Rams vs. Seahawks @ 5:15pm.",
       dogFriendly: true, tentative: false },
     { id: "medina-arrive-1225", date: "2026-12-25", title: "Melissa & David arrive",
-      description: "The Medinas arrive around 1pm on Christmas Day.", dogFriendly: "unknown", tentative: false },
+      description: "The Medinas arrive at 12:50pm on Christmas Day.", dogFriendly: "unknown", tentative: false },
     { id: "leftovers-1226", date: "2026-12-26", title: "TBD",
       description: "Food-wise we'll likely finish the leftovers from the day before. Day plans are open.",
       dogFriendly: true, tentative: true },
