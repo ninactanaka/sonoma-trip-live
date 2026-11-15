@@ -150,8 +150,7 @@ function renderHero() {
     <p class="label">A Carmichael-Tanaka-Medina Holiday</p>
     <h1>${esc(TRIP.meta.title)}</h1>
     <p class="hero-dates">${esc(TRIP.meta.years)}</p>
-    <p class="hero-intro">${esc(TRIP.meta.intro)}</p>
-    <p class="hero-intro">Be sure to check out the game plan for <a href="#info">gifts</a>.</p>
+    <p class="hero-intro">${esc(TRIP.meta.intro)} Be sure to check out the game plan for <a href="#info">gifts</a>!</p>
   </div>`;
 }
 
